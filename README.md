@@ -5,13 +5,11 @@ A machine learning web app that predicts Iris flower species in real time — tr
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
 ## 🚀 Live Demo
-> 🔗 *Add your Streamlit Cloud link here once deployed*
-> Example: [flower-classification.streamlit.app](https://share.streamlit.io)
+> 🔗 https://mihika-ml-app.streamlit.app/
 
 ---
 
@@ -48,8 +46,8 @@ All models were trained and evaluated on the classic **Iris dataset** (150 sampl
 
 ## 📂 Project Structure
 ```
-├── App.py                              # Streamlit app
-├── Flower_Classification_Project.ipynb # EDA + model training notebook
+├── App.py                                          # Streamlit app
+├── Flower Classification Project.ipynb             # EDA + model training notebook
 ├── Logistic Regression.pkl
 ├── Naive Bayes.pkl
 ├── Decision Tree.pkl
@@ -60,16 +58,12 @@ All models were trained and evaluated on the classic **Iris dataset** (150 sampl
 └── README.md
 ```
 
-## ⚙️ Run Locally
-```bash
-git clone https://github.com/Mihikaaaaa/ML_Flower.Classification.git
-cd ML_Flower.Classification
-pip install -r requirements.txt
-streamlit run App.py
-```
-
 ## 📸 Screenshots
-> *Add a screenshot or GIF of the sliders + prediction + comparison chart here — this sells the project instantly to anyone browsing your repo.*
+> <img width="1920" height="865" alt="Screenshot (237)" src="https://github.com/user-attachments/assets/65d804df-2b20-4033-94c8-a054602f9a5c" />
+> <img width="1920" height="856" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/dbf3b341-310e-41b3-a4bb-efada6707eef" />
+> <img width="1920" height="871" alt="Screenshot (240)" src="https://github.com/user-attachments/assets/cd2e5722-52bf-4b79-b9e4-e195e584f6ea" />
+> <img width="1920" height="854" alt="Screenshot (241)" src="https://github.com/user-attachments/assets/83c43403-be0a-4e41-abca-245d9102f83b" />
+
 
 ## 📈 Results
 All six models achieve strong accuracy (90%+) on the held-out test set, which is expected given how well-separated the Iris classes are. The comparison chart in the notebook shows exact scores per model.
@@ -78,11 +72,7 @@ All six models achieve strong accuracy (90%+) on the held-out test set, which is
 - Deploy on Streamlit Community Cloud and link it here
 - Add model accuracy metrics directly in the app UI
 - Replace per-model `.pkl` files with a single serialized dict for cleaner loading
-- Add unit tests for prediction pipeline
+- Add unit tests for the prediction pipeline
 
 ## 👩‍💻 Author
 **Mihika Srivastava**
-Made with ❤️ using Streamlit
-
-## 📄 License
-This project is licensed under the MIT License.
