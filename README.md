@@ -35,7 +35,7 @@ Instead of relying on a single model, this app trains **six different classifier
 | SVM | Margin-based |
 | KNN | Instance-based |
 
-All models were trained and evaluated on the classic Iris dataset (150 samples, 4 features, 3 balanced classes) with an 80/20 stratified train-test split. Test accuracy ranged from 96.67% to 100% across all six models. Full EDA, training, and evaluation (confusion matrices) is available in Flower_Classification_Project.ipynb.
+All models were trained and evaluated on the classic **Iris dataset** (150 samples, 4 features, 3 balanced classes) with an 80/20 stratified train-test split. Test accuracy ranged from **96.67% to 100%** across all six models. Full EDA, training, and evaluation (confusion matrices) is available in [Flower_Classification_Project.ipynb](./Flower_Classification_Project.ipynb).
 
 ## 🛠️ Tech Stack
 - **Python**, **Pandas**, **NumPy**
