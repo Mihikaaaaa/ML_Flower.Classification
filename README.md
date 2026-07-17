@@ -68,11 +68,5 @@ All models were trained and evaluated on the classic **Iris dataset** (150 sampl
 ## 📈 Results
 All six models achieve strong accuracy (90%+) on the held-out test set, which is expected given how well-separated the Iris classes are. The comparison chart in the notebook shows exact scores per model.
 
-## 🔮 Future Improvements
-- Deploy on Streamlit Community Cloud and link it here
-- Add model accuracy metrics directly in the app UI
-- Replace per-model `.pkl` files with a single serialized dict for cleaner loading
-- Add unit tests for the prediction pipeline
-
 ## 👩‍💻 Author
 **Mihika Srivastava**
