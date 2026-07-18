@@ -14,7 +14,7 @@ A machine learning web app that predicts Iris flower species in real time — tr
 ---
 
 ## 📌 Overview
-This project classifies Iris flowers (**Setosa**, **Versicolor**, **Virginica**) based on 4 features — sepal length, sepal width, petal length, and petal width.
+This project classifies Iris flowers (**Setosa**, **Versicolor**, **Virginica**) based on 4 features: sepal length, sepal width, petal length and petal width.
 
 Instead of relying on a single model, this app trains **six different classifiers**, compares their performance side by side, and combines their predictions using a **majority-vote ensemble** for the final answer.
 
